@@ -68,18 +68,18 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ⱽⁱˢᶜᵒ ᴰᶻ", url="https://t.me/huntersource",
+                text="مطور الســورس", url="https://t.me/U_7h1",
             ),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/yyyyybbh",
+                text="جــــروب الدعــم", url="https://t.me/yyyyybbh",
             ),
         ],
         [
             InlineKeyboardButton(
-                 text="sᴏᴜʀᴄᴇ", url=f"https://t.me/huntersource",
+                 text="قناة الســــورس", url=f"https://t.me/huntersource",
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/musicalgerian",
+                text="قناة البوت", url=f"https://t.me/Yosr3456",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -98,18 +98,18 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ⱽⁱˢᶜᵒ ᴰᶻ", url="https://t.me/huntersource",
+                text="مــطور الســورس", url="https://t.me/U_7h1",
             ),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/yyyyybbh",
+                text="جــروب الــدعم", url="https://t.me/yyyyybbh",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ", url=f"https://t.me/huntersource",
+                text="قنــاة الســورس", url=f"https://t.me/huntersource",
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/musicalgerian",
+                text="قناة البــوت", url=f"https://t.me/Yosr3456",
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],

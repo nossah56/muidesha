@@ -36,9 +36,6 @@ from config import BANNED_USERS, lyrical
             "vplayforce",
             "cplayforce",
             "cvplayforce",
-             "تشغيل",
-            "فيديو",
-            "تخطي",
         ]
     )
     & filters.group
@@ -508,7 +505,7 @@ async def play_music(client, CallbackQuery, _):
 async def annonymous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
-            "» افتح بروفايل الجروب :\n\nخش علي صلاحياتك.\n-> هتنزل تحت\n-> تلغي خاصيه مجهول الهويه\n-> هانتر بيحبك.",
+            "» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ :\n\nᴏᴘᴇɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs.\n-> ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> ᴄʟɪᴄᴋ ᴏɴ ʏᴏᴜʀ ɴᴀᴍᴇ\n-> ᴜɴᴄʜᴇᴄᴋ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs.",
             show_alert=True,
         )
     except:
